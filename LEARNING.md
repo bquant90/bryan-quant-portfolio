@@ -1,5 +1,22 @@
 # What I'm Learning: My Tech Portfolio Website
 
+# Upload Portfolio to GitHub
+
+1. Initialize Git Repository (git init)
+2. Stage all files (git add .)
+3. git commit -m "MESSAGE"
+4. Connect Local Repo to GitHub
+
+- git remote add origin [https:](https://github.com/bquant90/bryan-quant-portfolio.git)
+- git branch -M main
+- git push -u origin main
+
+# Future Updates
+
+git add .
+git commit -m "MESSAGE"
+git push
+
 ## React Fundamentals
 
 ### Components
@@ -17,7 +34,6 @@
   }
   export default App;
   ```
-- **Date learned**: Nov 1, 2025
 
 ### JSX (JavaScript XML)
 
@@ -28,14 +44,18 @@
   <h1 className="text-5xl font-bold">Bryan Quant</h1>
   ```
 - **Key Difference**: Use `className` instead of `class` in React
-- **Date learned**: Nov 1, 2025
 
-### Props (Coming Next)
+### States
 
-- **What**: Data passed to components
-- **Why**: Make components flexible and reusable
+- **What**: Data a component needs to remember and can change over time
+- **Why**: Tracks dynamic data
+- **Example**: const [isDarkMode, setIsDarkMode] = useState(true);
+
+### Props
+
+- **What**: Properties passed from parent to child component
+- **Why**: Pass data and functions between components
 - **Example**: Will learn when we break portfolio into smaller components
-- **Date learned**: [FUTURE]
 
 ## TypeScript
 
@@ -50,14 +70,12 @@
     return <div>...</div>;
   }
   ```
-- **Date learned**: Nov 1, 2025
 
 ### .tsx Files
 
 - **What**: TypeScript files that contain JSX (TypeScript + JSX)
 - **Why**: Combines type safety with React components
 - **Example**: `App.tsx` is a TypeScript + React component file
-- **Date learned**: Nov 1, 2025
 
 ## Tailwind CSS
 
@@ -69,7 +87,6 @@
   ```jsx
   className = "text-blue-500 font-bold text-center";
   ```
-- **Date learned**: Nov 1, 2025
 
 ### Responsive Design
 
@@ -80,7 +97,6 @@
   className = "text-5xl md:text-6xl";
   // Mobile: text-5xl, Desktop: text-6xl
   ```
-- **Date learned**: Nov 1, 2025
 
 ### Hover States
 
@@ -91,7 +107,6 @@
   className = "bg-blue-600 hover:bg-blue-700 hover:scale-105";
   // Normal: blue-600, Hover: darker blue + slightly larger
   ```
-- **Date learned**: Nov 1, 2025
 
 ### Gradient Backgrounds
 
@@ -102,7 +117,6 @@
   className = "bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900";
   // Creates dark blue gradient from top-left to bottom-right
   ```
-- **Date learned**: Nov 1, 2025
 
 ## Vite
 
@@ -111,14 +125,12 @@
 - **What**: Instantly updates the browser when you save a file
 - **Why**: Fast development - no manual refresh needed
 - **Example**: Save `App.tsx` → browser updates automatically
-- **Date learned**: Nov 1, 2025
 
 ### Development Server
 
 - **What**: Local server that runs your React app
 - **Why**: Test your website before deploying to production
 - **Command**: `npm run dev` starts server at `http://localhost:5173/`
-- **Date learned**: Nov 1, 2025
 
 ## Key Concepts
 
